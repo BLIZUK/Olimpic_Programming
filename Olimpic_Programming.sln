@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DNA", "DNA\DNA.vcxproj", "{55856931-64C3-4B93-B2D6-28B153D5080F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DNA_Task", "DNA_Task", "{B54E4854-25F3-4B5B-9EFD-7590DF7A0FD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -24,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55856931-64C3-4B93-B2D6-28B153D5080F} = {B54E4854-25F3-4B5B-9EFD-7590DF7A0FD4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FCDDED8B-A378-4C05-9A89-B3DA99352D5C}

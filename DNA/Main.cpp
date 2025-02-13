@@ -9,6 +9,12 @@
 using namespace std;
 
 
+void deepVoid()
+{
+	
+}
+
+
 int main()
 {
 	return 0;
