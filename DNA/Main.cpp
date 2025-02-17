@@ -24,7 +24,6 @@ void split(const string& input, list<string>& words)
 		words.push_back(word);
 	}
 
-	//return words;
 }
 
 
