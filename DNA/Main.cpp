@@ -1,5 +1,5 @@
 /*
-������ - ������������� ���
+Задача - Реконструкция ДНК
 */
 
 
@@ -13,6 +13,7 @@
 using namespace std;
 
 
+// Разбивка строк по пробелу
 void split(const string& input, list<string>& words)
 {
 	istringstream iss(input);
