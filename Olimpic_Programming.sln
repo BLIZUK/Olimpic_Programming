@@ -7,6 +7,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DNA", "DNA\DNA.vcxproj", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DNA_Task", "DNA_Task", "{B54E4854-25F3-4B5B-9EFD-7590DF7A0FD4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Password_Task", "Password_Task", "{D8F12F4C-3FCC-420A-A23F-7F8AA0DBD32B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Password", "Password\Password.vcxproj", "{0EB6CE15-698B-4C23-9B5E-0D6C7CAEEC11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Staples_Task", "Staples_Task", "{DCE7D524-DDDD-40F7-903C-93DE0C47086F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Staples", "Staples\Staples.vcxproj", "{6B0A73B0-8079-49CD-A779-AA156BDA2D10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,12 +31,30 @@ Global
 		{55856931-64C3-4B93-B2D6-28B153D5080F}.Release|x64.Build.0 = Release|x64
 		{55856931-64C3-4B93-B2D6-28B153D5080F}.Release|x86.ActiveCfg = Release|Win32
 		{55856931-64C3-4B93-B2D6-28B153D5080F}.Release|x86.Build.0 = Release|Win32
+		{0EB6CE15-698B-4C23-9B5E-0D6C7CAEEC11}.Debug|x64.ActiveCfg = Debug|x64
+		{0EB6CE15-698B-4C23-9B5E-0D6C7CAEEC11}.Debug|x64.Build.0 = Debug|x64
+		{0EB6CE15-698B-4C23-9B5E-0D6C7CAEEC11}.Debug|x86.ActiveCfg = Debug|Win32
+		{0EB6CE15-698B-4C23-9B5E-0D6C7CAEEC11}.Debug|x86.Build.0 = Debug|Win32
+		{0EB6CE15-698B-4C23-9B5E-0D6C7CAEEC11}.Release|x64.ActiveCfg = Release|x64
+		{0EB6CE15-698B-4C23-9B5E-0D6C7CAEEC11}.Release|x64.Build.0 = Release|x64
+		{0EB6CE15-698B-4C23-9B5E-0D6C7CAEEC11}.Release|x86.ActiveCfg = Release|Win32
+		{0EB6CE15-698B-4C23-9B5E-0D6C7CAEEC11}.Release|x86.Build.0 = Release|Win32
+		{6B0A73B0-8079-49CD-A779-AA156BDA2D10}.Debug|x64.ActiveCfg = Debug|x64
+		{6B0A73B0-8079-49CD-A779-AA156BDA2D10}.Debug|x64.Build.0 = Debug|x64
+		{6B0A73B0-8079-49CD-A779-AA156BDA2D10}.Debug|x86.ActiveCfg = Debug|Win32
+		{6B0A73B0-8079-49CD-A779-AA156BDA2D10}.Debug|x86.Build.0 = Debug|Win32
+		{6B0A73B0-8079-49CD-A779-AA156BDA2D10}.Release|x64.ActiveCfg = Release|x64
+		{6B0A73B0-8079-49CD-A779-AA156BDA2D10}.Release|x64.Build.0 = Release|x64
+		{6B0A73B0-8079-49CD-A779-AA156BDA2D10}.Release|x86.ActiveCfg = Release|Win32
+		{6B0A73B0-8079-49CD-A779-AA156BDA2D10}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{55856931-64C3-4B93-B2D6-28B153D5080F} = {B54E4854-25F3-4B5B-9EFD-7590DF7A0FD4}
+		{0EB6CE15-698B-4C23-9B5E-0D6C7CAEEC11} = {D8F12F4C-3FCC-420A-A23F-7F8AA0DBD32B}
+		{6B0A73B0-8079-49CD-A779-AA156BDA2D10} = {DCE7D524-DDDD-40F7-903C-93DE0C47086F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FCDDED8B-A378-4C05-9A89-B3DA99352D5C}
