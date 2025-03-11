@@ -63,6 +63,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contest_home2", "Contest_ho
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_Interval", "1_Interval\1_Interval.vcxproj", "{0985177A-3D5C-416D-B238-9176D0A4C587}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_Sum_nums_in_array", "2_Sum_nums_in_array\2_Sum_nums_in_array.vcxproj", "{D0163231-57A2-4D08-92A6-2F16090227DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -175,6 +177,14 @@ Global
 		{0985177A-3D5C-416D-B238-9176D0A4C587}.Release|x64.Build.0 = Release|x64
 		{0985177A-3D5C-416D-B238-9176D0A4C587}.Release|x86.ActiveCfg = Release|Win32
 		{0985177A-3D5C-416D-B238-9176D0A4C587}.Release|x86.Build.0 = Release|Win32
+		{D0163231-57A2-4D08-92A6-2F16090227DC}.Debug|x64.ActiveCfg = Debug|x64
+		{D0163231-57A2-4D08-92A6-2F16090227DC}.Debug|x64.Build.0 = Debug|x64
+		{D0163231-57A2-4D08-92A6-2F16090227DC}.Debug|x86.ActiveCfg = Debug|Win32
+		{D0163231-57A2-4D08-92A6-2F16090227DC}.Debug|x86.Build.0 = Debug|Win32
+		{D0163231-57A2-4D08-92A6-2F16090227DC}.Release|x64.ActiveCfg = Release|x64
+		{D0163231-57A2-4D08-92A6-2F16090227DC}.Release|x64.Build.0 = Release|x64
+		{D0163231-57A2-4D08-92A6-2F16090227DC}.Release|x86.ActiveCfg = Release|Win32
+		{D0163231-57A2-4D08-92A6-2F16090227DC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -208,6 +218,7 @@ Global
 		{4AD85CFF-0F09-44DA-871F-703552B48422} = {CE365932-554F-4B4F-88F0-D344FCDA8FAB}
 		{BB749D11-D705-4CAD-94A4-F12369139ABF} = {94C63609-F16E-4B9D-83A0-C3DCC7F8C1B6}
 		{0985177A-3D5C-416D-B238-9176D0A4C587} = {BB749D11-D705-4CAD-94A4-F12369139ABF}
+		{D0163231-57A2-4D08-92A6-2F16090227DC} = {BB749D11-D705-4CAD-94A4-F12369139ABF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FCDDED8B-A378-4C05-9A89-B3DA99352D5C}
