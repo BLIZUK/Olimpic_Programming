@@ -16,11 +16,18 @@
 
 class DNA_task
 {
+
 public:
+
+
+	// Мое решение задачи
 	class My_solution
 	{
 
+
+
 	private:
+
 
 		struct _section
 		{
@@ -29,7 +36,6 @@ public:
 			struct _section* prev;
 
 			_section(const std::string value) : section(value), next(nullptr), prev(nullptr) {}
-
 		};
 		_section* head;
 		_section* tail;
@@ -38,7 +44,9 @@ public:
 
 	public:
 
+
 		My_solution() : head(nullptr), tail(nullptr), size(0) {}
+
 
 		~My_solution()
 		{
@@ -79,6 +87,7 @@ public:
 
 		}
 		
+
 		void print()
 		{
 			_section* current = head;
@@ -88,7 +97,6 @@ public:
 				current = current->next;
 			}
 		}
-
 
 
 		std::string& operator[](size_t index)
@@ -120,6 +128,8 @@ public:
 
 	}MS;
 
+
+	// Верное решение, предложенное преподователем.
 	class Right_solution
 	{
 
