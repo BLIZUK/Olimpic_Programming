@@ -3,7 +3,7 @@
 
 using namespace std;
 
-bool checking(int n, int m, const vector<int>& a)
+static bool checking(int n, int m, const vector<int>& a)
 {
     int sum = 0;
     int max_a = 0;
@@ -18,7 +18,7 @@ bool checking(int n, int m, const vector<int>& a)
     return (m >= max_a && m <= max_time);
 }
 
-string input_output()
+static string input_output()
 {
     int n, m;
     cin >> n >> m;
