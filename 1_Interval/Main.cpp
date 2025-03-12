@@ -2,7 +2,7 @@
 #include <vector>
 
 
-std::vector<int> PrefixSum(const std::vector<int>& arr, size_t n)
+static std::vector<int> PrefixSum(const std::vector<int>& arr, size_t n)
 {
 	std::vector<int> pref(n);
 	pref[0] = arr[0];
@@ -17,7 +17,7 @@ std::vector<int> PrefixSum(const std::vector<int>& arr, size_t n)
 }
 
 
-int SumSegment(const std::vector<int>& pref, size_t l, size_t r)
+static int SumSegment(const std::vector<int>& pref, size_t l, size_t r)
 {
 	if (l == 0)
 	{
