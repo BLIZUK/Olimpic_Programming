@@ -63,7 +63,7 @@ static void proces()
 		pointers[a] = list<string>::iterator();
 	}
 
-	for (const auto& word : words)
+	for (const auto word : words)
 	{
 		cout << word << endl;
 	}

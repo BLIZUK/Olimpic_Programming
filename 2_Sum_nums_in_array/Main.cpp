@@ -1,57 +1,28 @@
 #include <iostream>
 #include <vector>
 
-
-static std::vector<int> PrefSum(std::vector<int> a, size_t n)
-{
-	std::vector<int> pref(n);
-	pref[0] = a[0];
-
-	for (size_t i = 1; i < n; i++)
-	{
-		pref[i] = pref[i - 1] + a[i];
-	}
-
-	return pref;
-}
-
-
-void FindInd(std::vector<int> a, size_t n)
-{
-	size_t l = 0, r = 0;
-	int max_sum = 0, min_sum = 0;
-
-	for (size_t i = 0; i < n; i++)
-	{
-		if (a[i] > max_sum)
-		{
-			max_sum = a[i];
-			r = i;
-		}
-		if (min_sum - a[i] >= 0)
-		{
-			l = i;
-		}
-	}
-
-	std::cout << '\n' << l + 1 << '\n' << r + 1;
-}
-
+using namespace std;
 
 int main()
 {
-	size_t n, i;
-	std::cin >> n;
-	std::vector<int> arr(n);
-
-	for (i = 0; i < n; i++)
-	{
-		std::cin >> arr[i];
-	}
-
-	std::vector<int> pref = PrefSum(arr, n);
-
-	FindInd(pref, n);
-
-	return 0;
+    int n;
+    cin >> n;
+    vector<int> a(n);
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
+    }
+    int max = 0, sum = 0, indi = 0, indj = 0, temp = 0;
+    for (int i = 0; i < n; i++) {
+        sum += a[i];
+        if (sum <= 0) {
+            sum = 0;
+            temp = i + 1;
+        }
+        if (sum > max) {
+            max = sum;
+            indi = temp;
+            indj = i;
+        }
+    }
+    cout << indi + 1 << " " << indj + 1;
 }
