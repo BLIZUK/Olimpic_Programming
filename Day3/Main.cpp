@@ -6,7 +6,7 @@
 
 //--------------------------------------------------------------------------------
 //Ќахождение максимальной заполненности
-void task4()
+static void task4()
 {
 	size_t n, k, i;
 	std::cin >> n >> k;
@@ -50,12 +50,12 @@ void task4()
 
 //--------------------------------------------------------------------------------
 //Ѕинарный поиск с вещественными числами
-double f(double a, double b, double c, double d, double x)
+static double f(double a, double b, double c, double d, double x)
 {
 	return a * x * x * x * b * x * x + c * x + d;
 }
 
-void task3()
+static void task3()
 {
 	const double eps = 1e-8;
 	double a, b, c, d;
