@@ -9,30 +9,28 @@ static std::vector<int> PrefSum(std::vector<int> a, size_t n)
 
 	for (size_t i = 1; i < n; i++)
 	{
-		pref[i] = pref[i - 1] + a[i] ;
+		pref[i] = pref[i - 1] + a[i];
 	}
 
 	return pref;
 }
 
 
-static void FindInd(std::vector<int> a, size_t n)
+void FindInd(std::vector<int> a, size_t n)
 {
-	size_t l = 0, r = 0, min_index = 0;
-	int max_sum = a[0], min_sum = 0;
+	size_t l = 0, r = 0;
+	int max_sum = 0, min_sum = 0;
 
 	for (size_t i = 0; i < n; i++)
 	{
-		if (a[i] - min_sum > max_sum)
+		if (a[i] > max_sum)
 		{
-			max_sum = a[i] - min_sum;
-			min_index + 1;
+			max_sum = a[i];
 			r = i;
 		}
-		if (a[i] < min_sum)
+		if (min_sum - a[i] >= 0)
 		{
-			min_sum = a[i];
-			min_index = i;
+			l = i;
 		}
 	}
 
@@ -51,7 +49,9 @@ int main()
 		std::cin >> arr[i];
 	}
 
-	FindInd(PrefSum(arr, n), n);
+	std::vector<int> pref = PrefSum(arr, n);
+
+	FindInd(pref, n);
 
 	return 0;
 }
